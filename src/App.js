@@ -51,11 +51,11 @@ class App extends Component {
         <input type='text' id='subtotal' placeholder='Subtotal...' onChange={this.updateSubtotal}/>
         <br/>
         <input type='checkbox' checked={this.state.customChecked} id='customize' onChange={this.updateCustomChecked} />
-        <label htmlFor='customize'>Click to set custom values for tip and tax.</label>
+        <label htmlFor='customize' id='customizeLabel'>Click to set custom values for tip and tax.</label>
         <br/>
         <input type='text' hidden={!this.state.customChecked} id='taxPercent' onChange={this.updateCustomTax} placeholder='Custom Tax...'/>
         <input type='text' hidden={!this.state.customChecked} id='tipPercent' onChange={this.updateCustomTip} placeholder='Custom Tip...'/>
-        <p>
+        <p id='output'>
           The total, including tax ({this.state.tax}%) and tip ({this.state.tip}%), is: ${this.state.total}.
         </p>
       </div>
