@@ -23,7 +23,7 @@ export default class Patron extends Component {
         const { uid, patronTotal, handleCancel } = this.props
         return (
             <tr>
-                <td id="cancel"><button id="delete" onClick={() => { handleCancel(uid) }}><strong style={{ color: 'red' }}>X</strong></button></td>
+                <td id="cancel"><button id="delete" onClick={() => { handleCancel(uid) }}><i className="fa fa-times-circle" style={{ color: 'red' }}/></button></td>
                 <td id="name"><input type="text" placeholder="name" value={name} onChange={this.handleName} /></td>
                 <td id="patronTotal">{`$${patronTotal}`}</td>
             </tr>

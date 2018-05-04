@@ -49,7 +49,7 @@ export default class BillSplit extends Component {
                 <table>
                     <thead>
                         <tr>
-                            <th><button id="addPatron" onClick={this.addPatron}><strong>+</strong></button></th>
+                            <th><button id="addPatron" onClick={this.addPatron}><i className="fa fa-plus" /></button></th>
                             <th>Name</th>
                             <th>Total</th>
                         </tr>
