@@ -1,3 +1,6 @@
 module.exports = {
-    "extends": "standard"
+    "extends": ["standard", "react"],
+    "rules": {
+        "max-len": 0
+    }
 };

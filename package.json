@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.6.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14"
@@ -18,14 +19,20 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.1",
     "eslint": "^4.7.2",
+    "eslint-config-react": "^1.1.7",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "react-test-renderer": "^16.0.0"
   },
   "jest": {
-    "collectCoverageFrom": ["**/src/*.{js,jsx}", "!**/src/index.js", "!**/src/registerServiceWorker.js"]
+    "collectCoverageFrom": [
+      "**/src/*.{js,jsx}",
+      "!**/src/index.js",
+      "!**/src/registerServiceWorker.js"
+    ]
   }
 }
