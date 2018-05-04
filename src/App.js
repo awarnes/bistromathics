@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import * as utils from './utils'
-import BillSplit from './BillSplit'
+import BillSplit from './containers/BillSplit'
 
 class App extends Component {
     constructor (props) {

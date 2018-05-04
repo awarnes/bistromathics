@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Patron from './Patron'
+import Patron from '../components/Patron'
 
 const idGen = (index) => {
     return Math.random() * Math.floor(index)
